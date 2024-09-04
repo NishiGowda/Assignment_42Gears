@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "project": "Project Alpha",
+        "progress": "47%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mauris quam."
+    },
+    {
+        "id": 2,
+        "project": "Project Beta",
+        "progress": "27%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mauris quam."
+    },
+    {
+        "id": 3,
+        "project": "Project Gamma",
+        "progress": "71%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mauris quam."
+    },
+    {
+        "id": 4,
+        "project": "Project Delta",
+        "progress": "50%",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mauris quam."
+    }
+]

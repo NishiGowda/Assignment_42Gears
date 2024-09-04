@@ -1,0 +1,90 @@
+.table-row {
+    transition: background-color 0.3s ease;
+}
+
+.table-row:hover {
+    background-color: #f1f1f1;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    position: relative;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.progress-fill {
+    background-color: #3f51b5;
+    height: 100%;
+    border-radius: 8px 0 0 8px;
+    transition: width 0.5s ease, background-color 0.3s ease;
+}
+
+.progress-text {
+    font-size: 14px;
+    color: #555;
+}
+
+.expand-button {
+    background: none;
+    border: none;
+    color: #3f51b5;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.expand-button:hover {
+    color: #303f9f;
+}
+
+.expand-button svg {
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+.expand-button.expanded svg {
+    transform: rotate(180deg);
+}
+
+.description-row {
+    animation: fadeIn 0.3s ease;
+}
+
+.description {
+    background: #f4f4f4;
+    padding: 15px;
+    border-left: 4px solid #3f51b5;
+    font-size: 14px;
+    color: #333;
+    border-radius: 0 0 8px 8px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+    .progress-bar {
+        height: 16px;
+    }
+
+    .progress-text {
+        font-size: 12px;
+    }
+
+    .expand-button {
+        font-size: 12px;
+    }
+
+    .description {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+

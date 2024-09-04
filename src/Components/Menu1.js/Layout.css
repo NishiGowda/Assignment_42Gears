@@ -1,0 +1,186 @@
+.header {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header .logo img {
+    height: 40px;
+}
+
+.header .user-info {
+    display: flex;
+    align-items: center;
+}
+
+.header .user-info button {
+    margin-left: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.header .user-info button img {
+    margin-left: 5px;
+    height: 12px;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: fixed;
+    top: 60px; /* Adjusted for header height */
+    bottom: 0;
+    left: 0;
+}
+
+.sidebar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20%;
+}
+
+.menu li {
+    /* margin: 10px 0; */
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.menu li a:hover, .menu li a.active {
+    background-color: #3f51b5;
+    color: white;
+}
+
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+    margin-top: 60px; /* Adjusted for header height */
+}
+
+
+.header {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header .logo img {
+    height: 40px;
+}
+
+.header .user-info {
+    display: flex;
+    align-items: center;
+}
+
+.header .user-info button {
+    margin-left: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.header .user-info button img {
+    margin-left: 5px;
+    height: 12px;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: fixed;
+    top: 60px; /* Adjusted for header height */
+    bottom: 0;
+    left: 0;
+}
+
+.sidebar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20%;
+}
+
+.menu li {
+    /* margin: 10px 0; */
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.menu li a:hover, .menu li a.active {
+    background-color: #3f51b5;
+    color: white;
+}
+
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+    margin-top: 60px; /* Adjusted for header height */
+}
